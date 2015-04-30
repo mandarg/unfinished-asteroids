@@ -49,8 +49,9 @@ ENGINE.Bullet.prototype = {
   },
 
   render: function() {
-
-    app.layer.fillStyle("#fff").fillRect(this.x - 4, this.y - 4, 8, 8);
+    var bulletimg = new Image()
+    bulletimg.src = "/Users/mgokhale/code/unfinished-asteroids/images/spritesheet.png"
+    app.layer.drawImage(bulletimg, 20 + this.team * 23, 53, 6, 6, this.x - 4, this.y - 4, 8, 8);
 
   }
 
