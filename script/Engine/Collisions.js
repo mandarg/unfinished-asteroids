@@ -35,8 +35,6 @@ ENGINE.Collisions.prototype = {
 
   },
 
-  /* this shit is short but buggy - what a crappy day... at crappy company
-     - temporary leaving it for emergency use */
 
   step2: function() {
 
