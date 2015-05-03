@@ -95,6 +95,7 @@ ENGINE.Player.prototype = {
       team: this.team,
       damage: 1
     });
+    app.playSound("shoot")
 
   },
 
